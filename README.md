@@ -30,19 +30,23 @@ Las reglas sintáctica de JSON son bastante sencillas:
 
    - En JSON existen dos tipos de elementos
      - matrices (arrays): Las matrices son listas de valores separados por comas. Las matrices se escriben entre corchetes [ ] 
+   - Objetos (objects). Los objetos son listas de parejas nombre / valor. El nombre y el valor están separados por dos puntos :
+         y las parejas estánseparadaspor comas. 
+     - Los objetos se escriben entre llaves {} y los nombres de las parejas se escriben siempre entre comillas dobles. 
+   - Los espacios en blanco y los saltos de línea no son significativos, es decir, puede haber cualquier número
+       de espacios en blanco o saltos de línea separando 
+       cualquier elemento o símbolo del documento
 
 
-       > [1, "pepe", 3.14, "Pepito Conejo"] 
-
-
-     - Objetos (objects). Los objetos son listas de parejas nombre / valor. El nombre y el valor están separados por dos puntos : y las parejas están separadas por comas. 
-       Los objetos se escriben entre llaves {} y los nombres de las parejas se escriben siempre entre comillas dobles. 
-
-       > {"nombre": "Pepito Conejo", "edad": 25, "carnet de conducir": true}
-
-  - Los espacios en blanco y los saltos de línea no son significativos, es decir, puede haber cualquier número de espacios en blanco o saltos de línea separando 
-      cualquier elemento o símbolo del documento
-> [
+```
+[1, "pepe", 3.14, "Pepito Conejo"] 
+```
+```
+{"nombre": "Pepito Conejo", "edad": 25, "carnet de conducir": true}
+```
+    
+```
+ [
   {
     "nombre": "Pepito Conejo",
     "edad": 25,
@@ -54,3 +58,4 @@ Las reglas sintáctica de JSON son bastante sencillas:
     "carnet de conducir": false
   }
   ]
+```
