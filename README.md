@@ -21,10 +21,18 @@ Las tres versiones publicadas:
 
 ![YAML IMAGEN](https://uxwing.com/wp-content/themes/uxwing/download/file-and-folder-type/yaml-file-icon.png)
 
+
+
+
+
+
 ## JSON<a name="id2"></a>
 
 JavaScript Object Notation (JSON) es el formato de intercambio de datos que lo hace posible. JSON se ha convertido en un formato de datos popular para los 
 desarrolladores debido a su texto legible por humanos, que es ligero, requiere menos codificación y se procesa más rápido al no requerir deserialización.
+
+
+![imagen](https://github.com/Sucret1921/JSONYAMAL/assets/153021297/664dda6b-0760-40a1-8721-3130db03356c)
 
 Las reglas sintáctica de JSON son bastante sencillas:
 
@@ -37,6 +45,7 @@ Las reglas sintáctica de JSON son bastante sencillas:
        de espacios en blanco o saltos de línea separando 
        cualquier elemento o símbolo del documento
 
+Ejemplos prácticos de los puntos anteriores: 
 
 ```
 [1, "pepe", 3.14, "Pepito Conejo"] 
