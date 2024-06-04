@@ -22,10 +22,21 @@ Las tres versiones publicadas:
 ![YAML IMAGEN](https://uxwing.com/wp-content/themes/uxwing/download/file-and-folder-type/yaml-file-icon.png)
 
 
+Colecciones
 
+Las colecciones de bloques de YAML utilizan sangría para el alcance y comienzan cada entrada en su propia línea. Las secuencias de bloques indican cada entrada con un guión y un espacio
+(“-”). Las asignaciones utilizan dos puntos y un espacio (“:”) para marcar cada par clave/valor. Los comentarios comienzan con un octothorpe (también llamado "hash", "sharp", "libra" o "signo numérico" - "#").
 
-
-
+```
+- Mark McGwire
+- Sammy Sosa
+- Ken Griffey
+```
+```
+hr:  65    # Home runs
+avg: 0.278 # Batting average
+rbi: 147   # Runs Batted In
+```
 ## JSON<a name="id2"></a>
 
 JavaScript Object Notation (JSON) es el formato de intercambio de datos que lo hace posible. JSON se ha convertido en un formato de datos popular para los 
